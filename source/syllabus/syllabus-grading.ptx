@@ -9,16 +9,13 @@
         <cell>Assignment Category</cell> <cell>Weight</cell>
       </row>
       <row>
-        <cell>Webwork (Online Homework System)</cell> <cell>25%</cell>
-      </row>
-      <row>
-        <cell>Weekly Activities</cell> <cell>10%</cell>
+        <cell>Homework</cell> <cell>30%</cell>
       </row>
       <row>
         <cell>Three Midterm Exams</cell> <cell>15% each</cell>
       </row>
       <row>
-        <cell>Cumulative Final Exam</cell> <cell>20%</cell>
+        <cell>Cumulative Final Exam</cell> <cell>25%</cell>
       </row>
     </tabular>
     <p>
@@ -67,45 +64,18 @@
     </tabular>
 
   
-  <paragraphs xml:id="webwork">
-    <title>Webwork</title>
+  <paragraphs xml:id="homework">
+    <title>Homework</title>
     <p>
-      Webwork is our online homework system. An account has been created for you and a link posted on Canvas. You should check Webwork every class day for new assignments. Their due dates are posted with the assignment. Typically, Webwork assignments will be due at 11:59pm two business days after that section's material has been completed in class. Thus, we have the following:
+    Homework will be assigned daily and due two class periods later. Each problem will be graded on a scale from 0 to 3. A grade of 0 indicates there is nothing correct about your solution. A grade of 3 indicates your solution is correct with no mistakes. A grade of 2 is mostly correct, with minor mistakes. A grade of 1 has a correct idea, but needs some serious work.
     </p>
-    <tabular>
-      <row header="yes">
-        <cell>Day</cell><cell>Day Due</cell>
-      </row>
-      <row>
-        <cell>Monday</cell><cell>Wednesday</cell>
-      </row>
-      <row>
-        <cell>Wednesday</cell><cell>Friday</cell>
-      </row>
-      <row>
-      <cell>Thursday</cell><cell>Monday</cell>
-      </row>
-      <row>
-        <cell>Friday</cell><cell>Tuesday</cell>
-      </row>
-    </tabular>
-    <p>
-      After the due date there will be a reduced credit period of 48 hours for each Webwork assignment in which you can receive 75% credit on all work completed.
-    </p>
-    <p>
-      Because online homework tells you if your answer is right or wrong as soon as you submit it, and for most questions you will be allowed multiple submissions, doing online homework may take you longer than doing written homework. So, give yourself plenty of time by starting your homework ASAP after it is assigned. This will give you time to do the assignment and get help if you need it.
-    </p>
+
   </paragraphs>
-  <paragraphs xml:id="weekly-activities">
-    <title>Weekly Activities</title>
-    <p>
-      Each week, typically on Thursdays, class time will be spent on an activity (such as a worksheet) intended to bring together material we have learned in the last week. Group work will be encouraged, but each student must turn in their own assignment.
-    </p>
-  </paragraphs>
+
   <paragraphs xml:id="midterm-exams">
     <title>Midterm Exams</title>
     <p>
-      There will be three midterm exams given in class on 9/19, 10/17, and 11/4. The class day before exams will be reserved for review. 
+      There will be three midterm exams given in class on 2/6, 3/6, and 4/10. The class day before exams will be reserved for review. 
     </p>
   </paragraphs>
   <paragraphs xml:id="final">
