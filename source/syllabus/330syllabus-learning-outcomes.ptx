@@ -1,0 +1,43 @@
+
+  <section xml:id="los"><title>Learning Outcomes</title>
+  <!--This version of the learning outcomes is for Math 121 and is GTPathways compliant.-->
+  <paragraphs xml:id="clos">
+    <title>Course Learning Outcomes</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            Students demonstrate a conceptual understanding of the meaning of algebraic forms, and
+            recognize differences between algebraic expressions and equations.
+          </p>
+        </li>
+        <li>
+          <p>
+            Students demonstrate proficiency in evaluating, interpreting, and manipulating algebraic expressions and equations.
+          </p>
+        </li>
+        <li>
+          <p>
+            Students develop competency in understanding functions. This includes definition and interpretation of various presentations of functions (algebraic, graphical, verbal, tabular) as well as understanding domain and range, compositions and decompositions, and inverses.
+          </p>
+        </li>
+        <li>
+          <p>
+          Students will derive fundamental first and second order linear PDE from physical considerations (conservation laws).          </p>
+        </li>
+        <li>
+          <p>
+            Students will solve basic first and second order PDE on bounded and unbounded domains using various methods, including techniques of Fourier analysis.
+          </p>
+        </li>
+        <li>
+          <p>
+            (483) Students will prove fundamental analytic results (involving various forms of convergence) relevant to partial differential equations.
+          </p>
+        </li>
+      </ul>
+    </p>
+  </paragraphs>
+
+
+</section>

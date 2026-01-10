@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--uncomment <pretext> and <article> tags at the beginning and end for standalone pdf generation-->
+<!--pretext-->
+<!--article-->
+<worksheet margin="1in" bottom="1.25cm">
+    <title>Math 330 ODE Review</title>
+
+            
+	<objectives>
+		<ul>
+			<li>
+				<p>
+					See how much ODE material we remember.
+				</p>
+			</li>
+            <li>
+                <p>
+                    See if we can apply our knowledge of ODEs in new ways.
+                </p>
+            </li>
+	  	</ul>
+    </objectives>
+    <introduction>
+        <p>
+        Before we begin the study of partial differential equations (PDEs), we need to make sure we have a strong command of ordinary differential equations (ODEs) and multivariable Calculus. These topics must be understood <term>both</term> from a procedural point of view and conceptually. In this worksheet you'll test your understanding and procedural proficiency with ODEs, on Wednesday we'll do multivariable Calculus. The goal right now is to find out where we stand with background material.
+        </p>
+    </introduction>
+<page>
+<exercise><title>Terminology Questions</title>
+<introduction>
+    Here are some questions of terminology. Answer each of them in the context of the differential equations class you previously took.
+</introduction>
+<task>
+    <statement>
+        <p>
+           What is a <em>differential equation</em>? 
+        </p>
+    </statement>
+</task>
+<task>
+    <statement>
+        <p>
+            What does it mean <em>to solve a differential equation</em>?
+        </p>
+    </statement>
+</task>
+<task>
+    <statement>
+        <p>
+           Given two functions <m>f</m> and <m>g</m>, what is the <em> convolution</em>, <m>f\ast g</m>, and what is it good for? 
+        </p>
+    </statement>
+</task>
+<task>
+    <statement>
+        <p>
+           What is the <em> <m>\delta</m>-function</em> and what is it good for? 
+        </p>
+    </statement>
+</task>
+    
+</exercise>
+
+<exercise><title>Solving Exercises</title>
+    <introduction>
+        <p>
+            For each of these questions, and all that you answer from now on, you need to <em>explain</em> your reasoning as you go. At the end of the question, if possible, try to conclude with a statement saying why the answer you obtained makes sense from a practical point of view. 
+        </p>
+    </introduction>
+
+    <task>
+        <statement>
+            <p>
+                A brine solution containing <m>0.25</m> kg of salt per liter of water flows into a <m>100</m>L mixing vat at a rate of <m>5</m> L/min. A well-stirred mixture leaves at a rate of <m>6</m> L/min. If the vat is initially full of fresh water, find a formula for the quantity <m>Q</m> of salt in the tank as a function of time.
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                A damped oscillator is governed by the 2nd order ODE
+<md>
+y''+6y'+13y = 0
+</md>
+when no external force is applied to it. Its initial position is <m>y(0)=0</m> and has a velocity of <m>y'(0) =2</m>. At <m>t=3</m>, an external force of <m>F(t) = 2\cos(3t)</m> is applied. Show that, in the long run, <m>y(t)</m> is approximately a periodic function. What is the period and amplitude of this function?
+            </p>
+        </statement>
+    </task>
+
+    <task>
+        <statement>
+            <p>
+                Consider the second order ODE
+<md>
+(1-t^2)y''-2ty'+n(n+1)y = 0.
+</md>
+Suppose <m>n</m> is a non-negative integer. By guessing a power series solution, show that this equation has a polynomial solution for some initial conditions. Does it have polynomial solutions for <em>all</em> initial conditions?
+            </p>
+        </statement>
+    </task>
+
+</exercise>
+
+
+
+</page>
+
+</worksheet>
+<!--/article-->
+<!--/pretext-->
