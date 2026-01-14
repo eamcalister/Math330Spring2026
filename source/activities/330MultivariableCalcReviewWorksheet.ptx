@@ -89,7 +89,7 @@ at all points of <m>R</m>.
 <md>
 f(kx,ky) = kf(x,y)
 </md>
-for all <m>k</m>. 
+for all <m>k\neq     0</m>. 
         </p>
     </introduction>
     <task>
