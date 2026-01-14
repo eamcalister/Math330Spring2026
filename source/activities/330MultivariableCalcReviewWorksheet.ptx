@@ -28,7 +28,9 @@
 <page>
 <exercise><title>A Traveling Wave</title>
 <introduction>
+    <p>
     Suppose that <m>f</m> is any differentiable function of one variable. Define <m>z = u(x,t) = f(x+ct)</m>.
+    </p>
 </introduction>
 <task>
     <statement>
