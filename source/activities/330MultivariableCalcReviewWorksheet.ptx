@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--uncomment <pretext> and <article> tags at the beginning and end for standalone pdf generation-->
+<!--pretext-->
+<!--article-->
+<worksheet margin="1in" bottom="1.25cm">
+    <title>Math 330 Multivariable Calculus Review</title>
+
+            
+	<objectives>
+		<ul>
+			<li>
+				<p>
+					See how much Calc III material we remember.
+				</p>
+			</li>
+            <li>
+                <p>
+                    See if we can apply our knowledge of multivariable Calculus in new ways.
+                </p>
+            </li>
+	  	</ul>
+    </objectives>
+    <introduction>
+        <p>
+        The study of PDEs depends pretty heavily on a good understanding of multivariable Calculus. Indeed, because of their physical origins, understanding PDEs may actually depend more on understanding multivariable Calculus than understanding ODEs. The following questions demand both procedural fluency and conceptual understanding of multivariable Calculus.
+        </p>
+    </introduction>
+<page>
+<exercise><title>A Traveling Wave</title>
+<introduction>
+    Suppose that <m>f</m> is any differentiable function of one variable. Define <m>z = u(x,t) = f(x+ct)</m>.
+</introduction>
+<task>
+    <statement>
+        <p>
+           Use the multivariable chain rule to show that <m>u</m> satisfies the PDE
+<md>
+u_t = cu_x.
+</md>
+        </p>
+    </statement>
+</task>
+
+<task>
+    <statement>
+        <p>
+            If you graph <m>z = u(x,t)</m> in the <m>xz</m>-plane and let <m>t</m> vary, what happens to the graph of <m>f</m>? Use this to give a geometric/dynamic/physical argument for why <m>u</m> satisfies the PDE given above.
+        </p>
+    </statement>
+</task>
+<task>
+    <statement>
+        <p>
+           Let <m>\mathbf{v}</m> be the unit vector parallel to the line <m>x = -ct</m> in the <m>xt</m>-plane. Compute the directional derivative <m>D_{\mathbf{v}}(u(x,t))</m>. Explain why the answer makes sense and connects to <m>u</m> satisfying the PDE given above in as many ways as you can.
+        </p>
+    </statement>
+</task>
+
+    
+</exercise>
+
+<exercise><title>Using the Divergence Theorem</title>
+    <statement>
+        <p>
+Suppose <m>w = u(x,y,z)</m> satisfies 
+<md>
+\int\int_{S} \nabla{u}\cdot d\vec{A} = 0
+</md>
+for all closed surfaces <m>S</m> in some region of space <m>R</m>. Use the Divergence Theorem to explain why (i.e. prove that)
+<md>
+u_{xx} + u_{yy} + u_{zz} = 0
+</md>
+at all points of <m>R</m>.
+        </p>
+    </statement>
+
+
+
+</exercise>
+
+</page>
+<page>
+
+<exercise>
+    <title>Homogeneous Functions</title>
+    <introduction>
+        <p>
+            A function <m>z = f(x,y)</m> is <term> homogeneous of degree one</term> if
+<md>
+f(kx,ky) = kf(x,y)
+</md>
+for all <m>k</m>. 
+        </p>
+    </introduction>
+    <task>
+        <statement>
+            <p>
+                What does it mean graphically for a function to be homogeneous of degree one?
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Suppose that <m>f</m> is homogeneous of degree one. Use the definition of the directional derivative (and that it equals the dot product shortcut) to show that <m>f</m> satisfies the PDE
+                <md>
+                    xf_x+yf_y = f
+                </md>
+                
+            </p>
+        </statement>
+        <hint>
+            <p>
+                The last question is a little hard. Let <m>\mathbf{u} = \frac{\langle x,y\rangle}{x^2 + y^2}</m>. Taking the directional derivative in the direction of the unit vector <m>\mathbf{u}</m> and using homogeneity will get you there.
+            </p>
+        </hint>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Explain what the above equation means in terms of directional derivatives, and why <m>f</m> satisfying the equation makes sense based on part (a).
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Give two examples of functions that are homogeneous of degree one that have qualitatively different graphs.
+            </p>
+        </statement>
+    </task>
+    
+</exercise>
+
+
+
+</page>
+
+</worksheet>
+<!--/article-->
+<!--/pretext-->

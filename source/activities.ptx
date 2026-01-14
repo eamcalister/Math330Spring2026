@@ -11,6 +11,7 @@
       </p>
     </introduction>
     <xi:include href="./activities/330ODEReviewWorksheet.ptx"/>
+    <xi:include href="./activities/330MultivariableCalcReviewWorksheet.ptx"/>
     
 
     <!-- Add more xi:include files here to include them in the main course -->
